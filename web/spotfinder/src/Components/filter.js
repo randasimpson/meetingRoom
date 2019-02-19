@@ -46,7 +46,7 @@ class Filter extends Component {
 
     render() {
       return (
-        <div className="filterContainer">
+        <div className="flex-container" id="filterContainer">
           <div className="roomFilter">
             <input id="roomNumber" placeholder="Enter Room Number">
             </input>
