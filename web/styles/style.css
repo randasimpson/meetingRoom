@@ -64,6 +64,9 @@ body {
   .main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
+    background-image: url('../img/money.jpg');
+    background-repeat: no-repeat;
+    background-size: 1100px;
   }
 
 

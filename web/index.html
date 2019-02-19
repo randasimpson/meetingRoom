@@ -15,10 +15,10 @@
                 <div class="topnav">
                     <h1>Meeting Room App</h1>
                     <!--search bar-->
-                    <div class="searchbar">
-                        <input id="filterbar" placeholder="Building">
+                    <div id="searchbar">
+                        <!-- <input id="filterbar" placeholder="Building">
                         <input id="filterbar" placeholder="Room">
-                        <input id="filterbar" placeholder="Equipment">
+                        <input id="filterbar" placeholder="Equipment"> -->
                     </div>
                 </div>
                     <!-- Side navigation -->
@@ -72,5 +72,47 @@
 
         </footer>
         <script src="./scripts/script.js" async defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+
+        <script type="text/babel">
+        class Filter extends React.Component {
+            render() {
+                return (
+                    <p className="filterContainer">
+                        <div className="roomFilter">
+                            <input id="roomNumber" placeholder="Enter Room Number">
+                            </input>
+                        </div> 
+                        <div className="floorFilter">
+                            <input id="floorNumber" placeholder="Enter Floor Number">
+                            </input>
+                        </div>
+                        <div className="seatFilter">
+                            <input id="seatNumber" placeholder="# of Seats">
+                            </input>
+                        </div>
+                        <div className="projectorFilter">
+                            <input id="projector" placeholder="Projector?">
+                            </input>
+                        </div>
+                        <div className="computersFilter">
+                            <input id="computers" placeholder="Class Computers?">
+                            </input>
+                        </div>
+                    </p>
+                );
+            }
+        }
+        ReactDOM.render(
+            <Filter />,
+            document.getElementById('searchbar')
+        );
+                
+        
+        
+        
+        </script>
     </body>
 </html>
