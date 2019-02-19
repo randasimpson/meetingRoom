@@ -46,7 +46,7 @@ class Filter extends Component {
 
     render() {
       return (
-        <div className="filterContainer">
+        <p className="filterContainer">
           <div className="roomFilter">
             <input id="roomNumber" placeholder="Enter Room Number">
             </input>
@@ -67,7 +67,7 @@ class Filter extends Component {
             <input id="computers" placeholder="Class Computers?">
             </input>
           </div>
-        </div>
+        </p>
       );
     }
   }
