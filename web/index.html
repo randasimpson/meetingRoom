@@ -7,6 +7,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/style.css">
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
     </head>
     <body>
         <nav>
@@ -56,41 +59,43 @@
 
         </footer>
         <script src="./scripts/script.js" async defer></script>
+        <script type="text/javascript" src="http://wpreact.local/wp-content/plugins/OpenWeatherMap-React-App//wp-react-app/build/static/js/main.5d390abf.chunk.js?ver=4.9.8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js" charset="utf-8"></script> 
 
         <script type="text/babel">
-        class Filter extends React.Component {
+        class App extends React.Component {
             render() {
-                return ( 
-                    <p className="flex-container" id="filterContainer">
-                        <div className="roomFilter">
-                            <input id="roomNumber" placeholder="Enter Room Number">
-                            </input>
-                        </div> 
-                        <div className="floorFilter">
-                            <input id="floorNumber" placeholder="Enter Floor Number">
-                            </input>
-                        </div>
-                        <div className="seatFilter">
-                            <input id="seatNumber" placeholder="# of Seats">
-                            </input>
-                        </div>
-                        <div className="projectorFilter">
-                            <input id="projector" placeholder="Projector?">
-                            </input>
-                        </div>
-                        <div className="computersFilter">
-                            <input id="computers" placeholder="Class Computers?">
-                            </input>
-                        </div>
-                    </p>
+                return ( <Filter />
+                    // <p className="flex-container" id="filterContainer">
+                    //     <div className="roomFilter">
+                    //         <input id="roomNumber" placeholder="Enter Room Number">
+                    //         </input>
+                    //     </div> 
+                    //     <div className="floorFilter">
+                    //         <input id="floorNumber" placeholder="Enter Floor Number">
+                    //         </input>
+                    //     </div>
+                    //     <div className="seatFilter">
+                    //         <input id="seatNumber" placeholder="# of Seats">
+                    //         </input>
+                    //     </div>
+                    //     <div className="projectorFilter">
+                    //         <input id="projector" placeholder="Projector?">
+                    //         </input>
+                    //     </div>
+                    //     <div className="computersFilter">
+                    //         <input id="computers" placeholder="Class Computers?">
+                    //         </input>
+                    //     </div>
+                    // </p>
+                    
                 );
             }
         }
         ReactDOM.render(
-            <Filter />,
+            <App />,
             document.getElementById('searchbar')
         );
                 
