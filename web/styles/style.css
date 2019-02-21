@@ -19,7 +19,7 @@ body {
     text-align: center;
 }
 
-.searchbar input {
+#root input {
     padding: 0;
     margin: 0;
 } 

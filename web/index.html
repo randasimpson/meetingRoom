@@ -26,7 +26,7 @@
                 </div>
                     <!-- Side navigation -->
                     <div class="sidenav"> 
-                        <img id="logo" src="img/LogoR.svg">
+                        <img id="logo" src="img/LogoTransparent.jpg">
                         <!--nav links-->    
                         <div class="navlinks">
                             <a href="#">About</a>
@@ -65,9 +65,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js" charset="utf-8"></script> 
 
         <script type="text/babel">
-        class App extends React.Component {
+        class Filter extends React.Component {
             render() {
-                return ( <Filter />
+                return ( <div id="searchbar"> </div>
                     // <p className="flex-container" id="filterContainer">
                     //     <div className="roomFilter">
                     //         <input id="roomNumber" placeholder="Enter Room Number">
@@ -95,7 +95,7 @@
             }
         }
         ReactDOM.render(
-            <App />,
+            <Filter />,
             document.getElementById('searchbar')
         );
                 
