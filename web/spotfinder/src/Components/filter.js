@@ -16,33 +16,6 @@ class Filter extends Component {
     // this.performSearch()
   }
 
-  // performSearch = (search) => {
-  //   this.setState({isLoading: true})
-  //   return fetch(urlString + (search || ''))
-  //   .then(response => {
-  //     this.setState({isLoading: false})
-  //     return response.json()
-  //   })
-  //   .catch (error => {
-  //     this.setState({error})
-  //   })
-  // }
-
-  // componentDidMount(){
-  //   this.performSearch(this.state.searchTerm)
-  //   .then(data => {
-  //     this.setState({'results': data.results})
-  //     this.refs.searchTermInput.value = this.state.searchTerm
-  //   })
-  // }
-
-  // handleChange = (event) => {
-  //   let value = event.target.value
-  //   this.performSearch(value)
-  //   .then(data => {
-  //     this.setState({'results': data.results})
-  //   })
-  // }
 
     render() {
       return (
@@ -60,16 +33,16 @@ class Filter extends Component {
             </input>
           </div>
           <div className="projectorFilter">
-            Projector?
+            Projector? <br />
             <input type="radio" value="yes" name="projector">
             </input> Yes
             <input type="radio" value="no" name="projector">
             </input> No
           </div>
           <div className="computersFilter">
-            Class Computers?
+            Class Computers? <br />
             <input type="radio" value="yes" name="computers">
-            </input>Yes
+            </input>Yes 
             <input type="radio" value="no" name="computers">
             </input>No
           </div>
