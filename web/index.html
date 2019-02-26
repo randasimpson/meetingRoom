@@ -7,9 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/style.css">
-        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+        
     </head>
     <body>
         <nav>
@@ -18,25 +16,42 @@
                 <div class="topnav">
                     <h1>Meeting Room App</h1>
                     <!--search bar-->
-                    <div id="filter_file">
-                        <!-- <input id="filterbar" placeholder="Building">
-                        <input id="filterbar" placeholder="Room">
-                        <input id="filterbar" placeholder="Equipment"> -->
-                    </div>
-                </div>
-                    <!-- Side navigation -->
-                    <div class="sidenav"> 
-                        <img id="logo" src="./img/LOGOtransSVG.svg">
-                        <!--nav links-->    
-                        <div class="navlinks">
-                            <a href="#">About</a>
-                            <a href="#">Services</a>
-                            <a href="#">Clients</a>
-                            <a href="#">Contact</a>
+                    <div class="flex-container" id="searchbar">
+                        <div class="roomFilter">
+                            <input id="roomNumber" placeholder="Enter Room Number"></input>
+                        </div> 
+                        <div class="floorFilter">
+                            <input id="floorNumber" placeholder="Enter Floor Number"></input>
+                        </div>
+                        <div class="seatFilter">
+                            <input id="seatNumber" placeholder="# of Seats"></input>
+                        </div>
+                        <div classe="projectorFilter">
+                            <label>Projector</label>
+                            <input id="projector" type="radio" value="Yes"></input>
+                            <input id="projector" type="radio" value="No"></input>
+                        </div>
+                        <div class="computersFilter">
+                            <label>Class Computers</label>
+                            <input id="computers" type="radio" value="Yes"></input>
+                            <input id="computers" type="radio" value="No"></input>
                         </div>
                     </div>
+                </div>
+                <!-- Side navigation -->
+                <div class="sidenav"> 
+                    <img id="logo" src="./img/LOGOtransSVG.svg">
+                    <!--nav links-->    
+                    <div class="navlinks">
+                        <!-- <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a> -->
+                    </div>
+                </div>
             </div> <!--navbar-->
         </nav>
+
         <section class="main">
             <h1></h1>
             
@@ -58,56 +73,8 @@
 
 
         </footer>
-        <script src="./scripts/script.js" async defer></script>
-        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
-  <!-- Load our React component. -->
-        <script src="filterFile.js"></script>
+        <script src=""></script>
 
-        <!-- <script type="text/javascript" src="http://wpreact.local/wp-content/plugins/OpenWeatherMap-React-App//wp-react-app/build/static/js/main.5d390abf.chunk.js?ver=4.9.8"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js" charset="utf-8"></script>  -->
-
-       <!-- <script type="text/babel">
-        class Filter extends React.Component {
-            render() {
-                return ( <div id="searchbar"> </div> -->
-                    <!-- <p className="flex-container" id="filterContainer">
-                        <div className="roomFilter">
-                            <input id="roomNumber" placeholder="Enter Room Number">
-                            </input>
-                        </div> 
-                        <div className="floorFilter">
-                            <input id="floorNumber" placeholder="Enter Floor Number">
-                            </input>
-                        </div>
-                        <div className="seatFilter">
-                            <input id="seatNumber" placeholder="# of Seats">
-                            </input>
-                        </div>
-                        <div className="projectorFilter">
-                            <input id="projector" placeholder="Projector?">
-                            </input>
-                        </div>
-                        <div className="computersFilter">
-                            <input id="computers" placeholder="Class Computers?">
-                            </input>
-                        </div>
-                    </p> -->
-                    
-                );
-            }
-        }
-        ReactDOM.render(
-            <!-- <Filter />, -->
-            document.getElementById('searchbar')
-        ); -->
-                
-        
-        
-        
-        </script>
     </body>
 </html>
