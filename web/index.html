@@ -10,12 +10,9 @@
         
     </head>
     <body>
-        <nav class="top-nav-bar">
-            <div class="navbar">
-                <!--Title/branding-->
-                <div class="topnav">
+        <section class="main">
+                <div class="navbar">
                     <img id="logo" src="./img/LOGOtransSVG.svg">
-                    <h1>Meeting Room App</h1>
                     <!--search bar-->
                     <div class="flex-container" id="searchbar">
                         <div class="roomFilter">
@@ -27,36 +24,31 @@
                         <div class="seatFilter">
                             <input id="seatNumber" placeholder="# of Seats"></input>
                         </div>
-                        <div classe="projectorFilter">
-                            <label>Projector</label>
-                            <input id="projector" type="radio" value="Yes"></input>
-                            <input id="projector" type="radio" value="No"></input>
+                        <div class="projectorFilter">
+                            <label>Projector:</label><br />
+                            <input id="projector" type="radio" value="Yes">Yes</input>
+                            <input id="projector" type="radio" value="No">No </input>
                         </div>
-                        <div class="computersFilter">
-                            <label>Class Computers</label>
-                            <input id="computers" type="radio" value="Yes"></input>
-                            <input id="computers" type="radio" value="No"></input>
+                        <div class="computerFilter">
+                            <label>Class Computers:</label><br />
+                            <input id="computers" type="radio" value="Yes">Yes</input>
+                            <input id="computers" type="radio" value="No">No </input>
                         </div>
                     </div>
                 </div>
-            </div> <!--navbar-->
-        </nav>
-
-        <section class="main">
-            <h1></h1>
-            
-
         </section> <!--main-->
-        
+        <nav>
+            <div class="col-4" id="side-bar">
+                <a href="#">1st Floor</a>
+                <a href="#">2nd Floor</a>
+                <a href="#">3rd Floor</a>
+                <a href="#">4th Floor</a>
+                <a href="#">5th Floor</a>
+                <a href="#">6th Floor</a>
+            </div>
+        </nav>
         <section class="first-section">
-                <div class="col-4" id="side-bar">
-                    <a href="#">1st Floor</a>
-                    <a href="#">2nd Floor</a>
-                    <a href="#">3rd Floor</a>
-                    <a href="#">4th Floor</a>
-                    <a href="#">5th Floor</a>
-                    <a href="#">6th Floor</a>
-                </div>
+                
                 <div class="col-8">
 
                 </div>
