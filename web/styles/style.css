@@ -6,20 +6,22 @@ body {
 /* Section 1 */
 .main {
   min-width: 1100px;
-  min-height: 900px;
+  min-height: 800px;
   padding: 0px;
   background-image: url('../img/money.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 60%;
+  background-size: 100% 100%;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/*filter bar*/
-#logo{
-    width: 300px;
+/*filter bars*/
+img#logo {
+    width: 400px;
     padding: 0;
     margin: 0;
+    justify-content: center;
+    align-content: center;
 }
 
 .navbar {
@@ -30,7 +32,7 @@ body {
     text-align: center;
 }
 
-#searchbar {
+.flex-container#searchbar {
   padding: 0;
   margin:0;
   border: black 1px solid;
@@ -42,20 +44,22 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .sticky-container {
   top: 0;
+  position: sticky;
 }
 
 /* Section 2 */
-.first-section {
+#first-section {
   min-width: 1100px;
-  min-height: 800px;
+  min-height: 500px;
   padding: 0px;
   background-image: url('../img/floor 1.svg');
   background-repeat: no-repeat;
-  background-size: 100% 60%;
+  background-size: 100% 100%;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -63,6 +67,7 @@ body {
 /* The sidebar */
 #side-bar {
   width: 160px;
+  position: absolute;
   height: 100%;
   background-color: black;
   text-align: center;
@@ -75,7 +80,6 @@ body {
   text-decoration: none;
   font-size: 25px;
   color: #818181;
-  display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -83,12 +87,79 @@ body {
   color: #f1f1f1;
 }
 
+/* Section 3 */
+#second-section {
+  min-width: 1100px;
+  min-height: 500px;
+  padding: 0px;
+  background-image: url('../img/floor 2.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+/* Section 4 */
+#third-section {
+  min-width: 1100px;
+  min-height: 500px;
+  padding: 0px;
+  background-image: url('../img/floor 3.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+/* Section 5 */
+#fourth-section {
+  min-width: 1100px;
+  min-height: 500px;
+  padding: 0px;
+  background-image: url('../img/floor 4.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+/* Section 6 */
+#fifth-section {
+  min-width: 1100px;
+  min-height: 500px;
+  padding: 0px;
+  background-image: url('../img/floor 5.svg'); /*file doesnt exist yet*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-
+/* Section 7 */
+#sixth-section {
+  min-width: 1100px;
+  min-height: 500px;
+  padding: 0px;
+  background-image: url('../img/floor 6.svg'); /*file doesnt exist yet*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
   
+/*footer*/
+footer {
+  background-color: lightgrey;
+  height: 100px;
+  bottom: 0;
+  padding: 0;
+  border: black;
+  display: block;
+}
+
+
+
+
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
