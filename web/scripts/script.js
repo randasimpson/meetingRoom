@@ -15,3 +15,10 @@ function myFunction() {
     searchbar.classList.remove("sticky");
   }
 }
+
+$(".flex-container").onscroll(function(){
+  var x = $("flex-container").offset();
+  if (x === 0) {
+  $(".flex-container").css($(".sticky-container"))
+  }
+})
