@@ -63,14 +63,15 @@ img#logo {
   padding: 0px;
   background-image: url('../img/floor 1.svg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 /* The sidebar */
 #side-bar {
-  width: 160px;
+  width: 200px;
   position: absolute;
   height: 100%;
   background-color: black;
@@ -103,7 +104,8 @@ img#logo {
   padding: 0px;
   background-image: url('../img/floor 2.svg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -120,7 +122,8 @@ img#logo {
   padding: 0px;
   background-image: url('../img/floor 3.svg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -137,7 +140,8 @@ img#logo {
   padding: 0px;
   background-image: url('../img/floor 4.svg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -154,7 +158,8 @@ img#logo {
   padding: 0px;
   background-image: url('../img/floor 5.svg'); /*file doesnt exist yet*/
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -171,7 +176,8 @@ img#logo {
   padding: 0px;
   background-image: url('../img/floor 6.svg'); /*file doesnt exist yet*/
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: auto;
+  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
 }
