@@ -3,16 +3,15 @@ body {
     background: white;
 }
 
-/* Section 1 */
-.main {
-  min-width: 1100px;
-  min-height: 800px;
-  padding: 0px;
+/* Homepage */
+#main {
+  width: 100%;
+  height: 100%;
+  padding: 0;
   background-image: url('../img/money.jpg');
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-size: 100% 100%;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /*filter bars*/
@@ -24,8 +23,7 @@ img#logo {
     align-content: center;
 }
 
-.navbar {
-    min-height: 150px; 
+.navbar { 
     width: 100%;
     top: 0;
     padding-top: 20px;
@@ -37,6 +35,7 @@ img#logo {
   margin:0;
   border: black 1px solid;
   background: rgba(242, 244, 245, 0.911);
+  
 }
 
 .flex-container {
@@ -53,6 +52,11 @@ img#logo {
 }
 
 /* Section 2 */
+#first-floor {
+  margin: 0;
+  padding: 0;
+}
+
 #first-section {
   min-width: 1100px;
   min-height: 500px;
@@ -88,6 +92,11 @@ img#logo {
 }
 
 /* Section 3 */
+#second-floor {
+  margin: 0;
+  padding: 0;
+}
+
 #second-section {
   min-width: 1100px;
   min-height: 500px;
@@ -100,6 +109,11 @@ img#logo {
 }
 
 /* Section 4 */
+#third-floor {
+  margin: 0;
+  padding: 0;
+}
+
 #third-section {
   min-width: 1100px;
   min-height: 500px;
@@ -112,6 +126,11 @@ img#logo {
 }
 
 /* Section 5 */
+#fourth-floor {
+  margin: 0;
+  padding: 0;
+}
+
 #fourth-section {
   min-width: 1100px;
   min-height: 500px;
@@ -124,6 +143,11 @@ img#logo {
 }
 
 /* Section 6 */
+#fifth-floor {
+  margin: 0;
+  padding: 0;
+}
+
 #fifth-section {
   min-width: 1100px;
   min-height: 500px;
@@ -136,6 +160,11 @@ img#logo {
 }
 
 /* Section 7 */
+#sixth-floor {
+  margin: 0;
+  padding: 0;
+}
+
 #sixth-section {
   min-width: 1100px;
   min-height: 500px;
@@ -148,13 +177,14 @@ img#logo {
 }
   
 /*footer*/
-footer {
+footer.container-fluid {
   background-color: lightgrey;
   height: 100px;
   bottom: 0;
   padding: 0;
+  margin: 0;
   border: black;
-  display: block;
+  position: relative;
 }
 
 
