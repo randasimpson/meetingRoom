@@ -16,9 +16,25 @@
 //   }
 // }
 
-$(".flex-container").onscroll(function(){
-  var x = $("flex-container").offset();
-  if (x === 0) {
-    $(".flex-container").css($(".sticky-container"))
+// $(".flex-container").onscroll(function(){
+//   var x = $("flex-container").offset();
+//   if (x === 0) {
+//     $(".flex-container").css($(".sticky-container"))
+//   }
+// })
+
+const filter = document.querySelector("#searchbar");
+const topOfFilter = filter.offsetTop;
+
+function fixedFilter () {
+  if (window.scrollY >= topOfFilter) {
+    document.body.classList.add("sticky-container")
+    document.body.classList.remove("flex-container");
+  } else {
+    document.body.classList.add("flex-container")
+    document.body.classList.remove("sticky-container");
   }
-})
+}
+
+window.addEventListener ('scroll', fixedFilter);
+
