@@ -31,7 +31,7 @@ img#logo {
     text-align: center;
 }
 
-.flex-container#searchbar {
+#searchbar {
   padding: 0;
   margin:0;
   border: black 1px solid;
