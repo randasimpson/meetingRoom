@@ -36,15 +36,16 @@ img#logo {
   margin:0;
   border: black 1px solid;
   background: rgba(242, 244, 245, 0.911);
-  
 }
 
 .flex-container {
+  width: 100%;
   display: flex;
+  float: left;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  position: relative;
+  position: sticky;
+  padding: 14px;
 }
 
 .sticky-container {
@@ -53,10 +54,14 @@ img#logo {
   justify-content: center;
   align-items: center;
   position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 /* Section 2 */
 #first-floor {
+  margin-top: 20px;
   margin: 0;
   padding: 0;
 }
