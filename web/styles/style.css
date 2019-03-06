@@ -55,7 +55,8 @@ img#logo {
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  right: 1px;
+  width: inherit;
   z-index: 1;
 }
 
