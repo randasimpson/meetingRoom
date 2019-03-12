@@ -38,17 +38,15 @@ body {
   border: black 1px solid;
   background: rgba(242, 244, 245, 0.911);
   z-index: 1;
-  position: relative;
 }
 
 .flex-container {
   width: 100%;
   display: flex;
-  float: left;
+  /* float: left; */
   justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
+  /* flex-direction: row; */
+  align-items: center:
 }
 
 .sticky-container {
