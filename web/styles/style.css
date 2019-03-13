@@ -6,7 +6,7 @@ body {
 /* Homepage */
 #Home {
   width: 100%;
-  height: 80%;
+  height: 600px;
   padding: 0;
   background-image: url('../img/money.jpg');
   background-repeat: no-repeat; 
@@ -25,10 +25,12 @@ body {
 }
 
 .branding { 
-    width: 100%;
-    top: 0;
-    padding-top: 20px;
-    text-align: center;
+    max-width: 800px;
+    padding-top: 10px;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #searchbar {
@@ -45,7 +47,6 @@ body {
   flex-direction: row;
   align-items: center;
   z-index: 1;
-  top: 20px;
 }
 
 .sticky-container {
