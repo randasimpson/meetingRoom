@@ -1,5 +1,5 @@
 
-
+// filter bar scroll adjustment
 const filter = document.querySelector("#searchbar");
 const topOfFilter = filter.offsetTop;
 
@@ -16,6 +16,7 @@ function fixedFilter () {
 }
 
 window.addEventListener ('scroll', fixedFilter);
+
 
 
 // debounce
