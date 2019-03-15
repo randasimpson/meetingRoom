@@ -3,6 +3,11 @@ body {
     background: white;
 }
 
+/* hiding results */
+.hidden {
+  display: none;
+}
+
 /* Homepage */
 #Home {
   width: 100%;
