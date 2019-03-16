@@ -3,12 +3,17 @@ body {
     background: white;
 }
 
+/* hiding results */
+.hidden {
+  display: none;
+}
+
 /* Homepage */
 #Home {
   width: 100%;
   height: 600px;
   padding: 0;
-  background-image: url('../img/money.jpg');
+  background-image: url('../img/money-logo-trans.jpg');
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
