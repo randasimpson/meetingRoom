@@ -28,9 +28,44 @@ window.addEventListener ('scroll', fixedFilter);
 //     debouncedFilter();
 // });
 
+//clear filter
+// function clearFilter(){
+//   $(#"clearField").click(function(){
+    
+//   })
+// }
+
  
-//filter content
+//filter via roomNumber
 // function filterPageContent(){
+//   let roomValue = roomNumber.val()
+//     if (roomValue >= ) {
+//       document.querySelector("#roomNumber").classList.add("hidden")
+//    } else {
+//       document.querySelector("#roomNumber").classList.remove("hidden")
+//    }
+// }
+
+//filter via floorNumber
+// function filterPageContent(){
+//   let floorValue = floorNumber.val()
+//     if (floorValue >= ){
+//       document.querySelector("#floorNumber").classList.add("hidden")
+//   } else {
+//      document.querySelector("#floorNumber").classList.remove("hidden")
+//   }
+// }
+
+//filter via seatNumber
+// function filterPageContent(){
+//   let seatValue = seatNumber.val()
+//     if (seatValue >= ){
+//       document.querySelector("#searchbar").classList.add("hidden")
+//   } else {
+//      document.querySelector("#seatNumber").classList.remove("hidden")
+//   }
+// }
+
 //     let inputValue = $('#filter-page-contents').val().toLowerCase();
 //     clearPageContent();
 //     let results = [];
@@ -59,11 +94,6 @@ window.addEventListener ('scroll', fixedFilter);
 //     }
 // }
 
-//clear filter
-// $('#reset-navcard-filter').click(function() {
-//     showPageContent();
-// });
-
 
 // function filterNameAndDescription(content, filterInput) {
 //     let results = content.filter(function(item) {
@@ -86,11 +116,7 @@ window.addEventListener ('scroll', fixedFilter);
 // function filterExistingContent(PageContentItem, filterString) {
 //     return PageContentItem.includes(filterString);
 // }
- 
-//add IDs
-// function buildElementID(elementName = 'missing_name') {
-//     return elementName.replace(/ /g, '_').toLowerCase();
-// }
+
 
 // function showFilteredContent(elementName, idString) {
 //     let elementID = buildElementID(elementName);
