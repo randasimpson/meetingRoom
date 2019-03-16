@@ -66,63 +66,17 @@ window.addEventListener ('scroll', fixedFilter);
 //   }
 // }
 
-//     let inputValue = $('#filter-page-contents').val().toLowerCase();
-//     clearPageContent();
-//     let results = [];
-//     for (let i = 0; i < contentBlob.sections.length; i++) {
-//         if(contentBlob.sections[i].header) {
-//             if(contentBlob.sections[i].header.htmlSection === true) {
-//                 let htmlResults = filterHTML(contentBlob.sections[i].targets, inputValue);
-//                 results = results.concat(htmlResults)
-//             } else {
-//                 let navCardResults = filterNameAndDescription(contentBlob.sections[i].targets, inputValue);
-//                 results = results.concat(navCardResults);
-//             }
-//         }
-//     }
-//     if (results) {
-//         for(var i = 0; i < results.length; i++) {
-//             if(results[i].html) {
-//                 showFilteredContent(results[i].name, 'htmlsec-');
-//             } else {
-//                 showFilteredContent(results[i].name, 'navcard-');
-//             }
-//         }
-//     }
+
 //     if (inputValue === '') {
 //         showPageContent();
 //     }
 // }
 
 
-// function filterNameAndDescription(content, filterInput) {
-//     let results = content.filter(function(item) {
-//         let stringExistsInHeadingName = filterExistingContent(item.name.toLowerCase(), filterInput);
-//         let stringExistsInDescription = filterExistingContent(item.desc.toLowerCase(), filterInput);
-//         return stringExistsInDescription || stringExistsInHeadingName;
-//     });
-//     return results;
-// }
 
 
-// function filterHTML(content, filterInput) {
-//     let results = content.filter(function(item) {
-//         return filterExistingContent(item.html.toLowerCase(), filterInput);
-//     })
-//     return results;
-// }
 
 
-// function filterExistingContent(PageContentItem, filterString) {
-//     return PageContentItem.includes(filterString);
-// }
-
-
-// function showFilteredContent(elementName, idString) {
-//     let elementID = buildElementID(elementName);
-//     $('#'+idString+elementID).removeClass('hidden');
-//     $('#'+idString+elementID).parents('.nav-section').removeClass('hidden');
-// }
 
 //clear data
 // function clearPageContent() {
