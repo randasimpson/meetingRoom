@@ -78,16 +78,3 @@ window.addEventListener ('scroll', fixedFilter);
 
 
 
-//clear data
-// function clearPageContent() {
-//     $('.nav-card').parent().addClass('hidden');
-//     $('.html-section').addClass('hidden');
-//     $('.nav-section').addClass('hidden');
-// }
-
-//pull back in data
-// function showPageContent() {
-//     $('.nav-card').parent().removeClass('hidden');
-//     $('.html-section').removeClass('hidden');
-//     $('.nav-section').removeClass('hidden');
-// }
