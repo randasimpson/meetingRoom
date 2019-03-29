@@ -215,15 +215,21 @@ body {
 }
   
 /*footer*/
-footer.container-fluid {
+#footer {
   background-color: lightgrey;
-  height: 100px;
+  color: black;
+  min-height: 100%;
+  width: 100%;
   bottom: 0;
   padding: 0;
   margin: 0;
   border: black;
+  position: relative;
 }
 
+#footer p{
+  text-align: center;
+}
 
 
 
